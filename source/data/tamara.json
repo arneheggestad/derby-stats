@@ -1,0 +1,14 @@
+{
+  "name" : "Tamara Obscura",
+  "number" : "100",
+  "jams" : {
+    "jammer" : 11,
+    "pivot" : 2,
+    "blocker" : 2,
+    "total" : 18
+  },
+  "points" : {
+    "for" : 65,
+    "against" : 104
+  }
+}

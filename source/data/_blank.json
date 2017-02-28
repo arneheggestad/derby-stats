@@ -1,0 +1,14 @@
+{
+  "name" : "",
+  "number" : "",
+  "jams" : {
+    "jammer" : 0,
+    "pivot" : 0,
+    "blocker" : 0,
+    "total" : 0
+  },
+  "points" : {
+    "for" : 0,
+    "against" : 0
+  }
+}

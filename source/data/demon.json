@@ -1,0 +1,14 @@
+{
+  "name" : "Demon",
+  "number" : "999",
+  "jams" : {
+    "jammer" : 1,
+    "pivot" : 1,
+    "blocker" : 31,
+    "total" : 32
+  },
+  "points" : {
+    "for" : 105,
+    "against" : 140
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "Violet Heart-Breaker",
+  "number" : "13",
+  "jams" : {
+    "jammer" : 10,
+    "pivot" : 1,
+    "blocker" : 1,
+    "total" : 10
+  },
+  "points" : {
+    "for" : 13,
+    "against" : 32
+  }
+}
