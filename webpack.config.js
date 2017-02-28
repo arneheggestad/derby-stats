@@ -1,9 +1,9 @@
 var webpack = require('webpack')
 
 module.exports = {
-  entry: 'source/index.js',
+  entry: './source/index.js',
   output: {
-    path: 'build/assets',
+    path: './build/assets',
     filename: 'bundle.js',
     publicPath: 'assets'
   },
@@ -13,14 +13,16 @@ module.exports = {
     port: 3000
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: ['babel-loader'],
-        query: {
-          presets: [ 'latest', 'stage-0', 'react' ]
-        }
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: [ 'latest', 'stage-0', 'react' ]
+          }
+        }]
       }
     ]
   }
